@@ -1,0 +1,29 @@
+[
+  {
+    "emoji": "🎨",
+    "title": "Clean Brand Presence",
+    "blurb": "Perfect for students who want their work to look professional without hiring a designer. This layout quietly builds trust at first glance.",
+    "cta": "Preview Brand Template",
+    "link": "https://example.com/brand",
+    "preview": "https://via.placeholder.com/300x100.png?text=Brand+Preview",
+    "recommended": true
+  },
+  {
+    "emoji": "📱",
+    "title": "Mobile-First Funnel",
+    "blurb": "Designed to convert mobile visitors into action-takers. Ideal if your audience lives on WhatsApp, Instagram, or Telegram.",
+    "cta": "Open Mobile Template",
+    "link": "https://example.com/mobile",
+    "preview": "https://via.placeholder.com/300x100.png?text=Mobile+Preview",
+    "recommended": false
+  },
+  {
+    "emoji": "⚡",
+    "title": "Fast Launch Page",
+    "blurb": "Built for speed and clarity. Use this when you want to launch something today without overthinking layout or structure.",
+    "cta": "Use Fast Template",
+    "link": "https://example.com/fast",
+    "preview": "https://via.placeholder.com/300x100.png?text=Fast+Preview",
+    "recommended": true
+  }
+]
