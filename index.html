@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Template Portal</title>
+  <link rel="stylesheet" href="css/premium.css">
+  <style>
+    /* Root landing overrides */
+    body, html {
+      height: 100%;
+    }
+
+    .landing-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .landing-card {
+      background: rgba(255,255,255,0.12);
+      border-radius: 18px;
+      padding: 2rem;
+      max-width: 400px;
+      width: 100%;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .landing-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    }
+
+    .landing-card h1 {
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+
+    .landing-card p {
+      margin-bottom: 1.5rem;
+      opacity: 0.9;
+      line-height: 1.4;
+    }
+
+    .landing-card a {
+      display: inline-block;
+      text-decoration: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 12px;
+      font-weight: 700;
+      background: linear-gradient(135deg, #ffcc70, #ff8177);
+      color: #1a1a1a;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .landing-card a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    }
+
+    .note {
+      font-size: 0.8rem;
+      margin-top: 1rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="landing-wrapper">
+
+    <section class="landing-card">
+      <h1>Welcome to the Student Template Portal 🚀</h1>
+      <p>Access your templates, explore emoji-based showcases, and unlock premium layouts daily.</p>
+      <a href="access/index.html">Go to Access Page</a>
+      <p class="note">You need a valid PIN to enter. PINs are issued daily after payment confirmation.</p>
+    </section>
+
+  </main>
+
+</body>
+</html>
