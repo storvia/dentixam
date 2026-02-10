@@ -1,0 +1,35 @@
+{
+  "john": {
+    "student_id": "john",
+    "name": "John Doe",
+    "status": "active",
+    "payment_verified": true,
+    "pin": "1234",
+    "pin_issued_at": "2026-02-10T00:00:00",
+    "valid_to": "2026-02-10T23:59:59",
+    "access_level": "templates",
+    "notes": "Paid via SmartCash, receipt confirmed on WhatsApp"
+  },
+  "mary": {
+    "student_id": "mary",
+    "name": "Mary Jane",
+    "status": "active",
+    "payment_verified": true,
+    "pin": "5678",
+    "pin_issued_at": "2026-02-10T00:00:00",
+    "valid_to": "2026-02-10T23:59:59",
+    "access_level": "templates",
+    "notes": "First-time access"
+  },
+  "ali": {
+    "student_id": "ali",
+    "name": "Ali Musa",
+    "status": "inactive",
+    "payment_verified": false,
+    "pin": "",
+    "pin_issued_at": null,
+    "valid_to": null,
+    "access_level": "none",
+    "notes": "Awaiting payment confirmation"
+  }
+}
