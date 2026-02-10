@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Access</title>
+
+  <link rel="stylesheet" href="../css/premium.css" />
+</head>
+<body>
+
+  <main class="access-wrapper">
+
+    <!-- Reassurance / Status -->
+    <div class="status-bar">
+      <span class="status-badge verified">✔ Payment Verified</span>
+      <span class="status-badge access">Access Active</span>
+    </div>
+
+    <!-- Main Card -->
+    <section class="glass-card access-card">
+
+      <h1 id="welcome">Welcome</h1>
+
+      <p class="subtitle">
+        Your daily access is protected by a short-lived PIN.
+        This ensures fair access and keeps resources available.
+      </p>
+
+      <!-- PIN Input -->
+      <div class="pin-group">
+        <input
+          type="password"
+          id="pin"
+          inputmode="numeric"
+          maxlength="6"
+          placeholder="Enter today’s PIN"
+          aria-label="Enter PIN"
+        />
+        <button onclick="login()">Unlock Access</button>
+      </div>
+
+      <!-- Countdown -->
+      <p id="countdown" class="countdown">Checking today’s access window…</p>
+
+      <!-- Errors -->
+      <p id="error" class="error"></p>
+
+      <!-- Trust Microcopy -->
+      <div class="trust-copy">
+        <p>✔ Access refreshes every 24 hours</p>
+        <p>✔ No downloads required</p>
+        <p>✔ Mobile-friendly</p>
+      </div>
+
+      <!-- Request PIN -->
+      <div class="request-pin">
+        <a href="https://wa.me/0901278201?text=Hello,+I+need+today%27s+PIN" target="_blank">
+          Request Today’s PIN via WhatsApp
+        </a>
+      </div>
+
+      <!-- Gentle Guidance -->
+      <small class="note">
+        If your PIN has expired, request today’s access via WhatsApp.
+      </small>
+
+    </section>
+
+  </main>
+
+  <!-- JS -->
+  <script src="../js/login.js"></script>
+</body>
+</html>
