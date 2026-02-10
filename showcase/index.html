@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template Showcase</title>
+  <link rel="stylesheet" href="../css/premium.css">
+</head>
+<body>
+
+  <main class="showcase-wrapper">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1 class="hero-title">Launch Your Projects Faster 🚀</h1>
+      <p class="hero-sub">
+        Pick a template below and start creating immediately. Each option is designed to build trust, clarity, and speed—without hiring a designer.
+      </p>
+    </section>
+
+    <!-- Cards Container -->
+    <section class="cards" id="cards">
+      <!-- JS will populate cards dynamically -->
+    </section>
+
+  </main>
+
+  <!-- Access check -->
+  <script>
+    if (sessionStorage.getItem("access") !== "granted") {
+      window.location.href = "../access/index.html";
+    }
+  </script>
+
+  <!-- Showcase JS -->
+  <script src="../js/showcase.js"></script>
+</body>
+</html>
