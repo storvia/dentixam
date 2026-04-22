@@ -4,22 +4,28 @@
     "name": "John Doe",
     "status": "active",
     "payment_verified": true,
-    "pin": "1234",
+    "pin": "8421",
     "pin_issued_at": "2026-02-10T00:00:00",
-    "valid_to": "2026-02-10T23:59:59",
+    "valid_to": "2026-02-17T23:59:59",
     "access_level": "templates",
-    "notes": "Paid via SmartCash, receipt confirmed on WhatsApp"
+    "notes": "Paid via SmartCash, receipt confirmed on WhatsApp",
+    "updated_at": "2026-04-22T00:00:00",
+    "pin_attempts": 0,
+    "last_login": null
   },
   "mary": {
     "student_id": "mary",
     "name": "Mary Jane",
     "status": "active",
     "payment_verified": true,
-    "pin": "5678",
+    "pin": "5937",
     "pin_issued_at": "2026-02-10T00:00:00",
-    "valid_to": "2026-02-10T23:59:59",
+    "valid_to": "2026-02-17T23:59:59",
     "access_level": "templates",
-    "notes": "First-time access"
+    "notes": "First-time access",
+    "updated_at": "2026-04-22T00:00:00",
+    "pin_attempts": 0,
+    "last_login": null
   },
   "ali": {
     "student_id": "ali",
@@ -30,6 +36,9 @@
     "pin_issued_at": null,
     "valid_to": null,
     "access_level": "none",
-    "notes": "Awaiting payment confirmation"
+    "notes": "Awaiting payment confirmation",
+    "updated_at": "2026-04-22T00:00:00",
+    "pin_attempts": 0,
+    "last_login": null
   }
 }
